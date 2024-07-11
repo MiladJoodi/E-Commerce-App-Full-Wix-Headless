@@ -19,6 +19,7 @@ const Navbar = () => {
         <div className="w-1/3">
           <Link href="/">
             <Image src="/logo.png" alt="" width={24} height={24} />
+            <div className="text-2xl tracking-wide">LAMA</div>
           </Link>
         </div>
 
