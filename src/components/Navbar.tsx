@@ -7,9 +7,18 @@ const Navbar = () => {
       <div className="h-full flex items-center justify-between bg-blue-100">
         {/* Mobile */}
         <Link href="/">
-        <div className="text-2xl tracking-wide">LAMA</div>
+          <div className="text-2xl tracking-wide">LAMA</div>
         </Link>
         <Menu />
+      </div>
+
+      {/* Bigger Screen */}
+      <div className="hidden md:flex items-center justify-between gap-8 h-full">
+        {/* left */}
+        <div></div>
+
+        {/* Right */}
+        <div></div>
       </div>
     </div>
   );
