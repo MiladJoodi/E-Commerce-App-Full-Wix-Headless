@@ -20,8 +20,17 @@ const CartModal = () => {
           />
           <div className="">
             {/* TOP */}
-            {/* TITLE */}
-            {/* DESC */}
+            <div>
+              {/* TITLE */}
+              <div>
+                <h3>Product Name</h3>
+                <div className="">$49</div>
+              </div>
+              {/* DESC */}
+              <div className="">
+                
+              </div>
+            </div>
 
             {/* BOTTOM */}
           </div>
