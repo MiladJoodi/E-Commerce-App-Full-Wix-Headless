@@ -1,13 +1,15 @@
 import Link from "next/link";
 import Menu from "./Menu";
 import Image from "next/image";
+import SearchBar from "./SearchBar";
+import NavIcons from "./NavIcons";
 
 const Navbar = () => {
   return (
     <div className="h-20 px-4 md:px-8 lg:px-16 2xl:px-64 bg-red-100 relative">
-      <div className="h-full flex items-center justify-between bg-blue-100">
+      <div className="h-full flex items-center justify-between md:hidden">
         {/* Mobile */}
-        <Link href="/">
+        <Link href="/" className="flex items-center gap-3">
           <div className="text-2xl tracking-wide">LAMA</div>
         </Link>
         <Menu />
@@ -24,7 +26,10 @@ const Navbar = () => {
         </div>
 
         {/* Right */}
-        <div className="w-2/3"></div>
+        <div className="w-2/3 flex items-center justify-between gap-8">
+        <SearchBar />
+        <NavIcons />
+        </div>
       </div>
     </div>
   );
