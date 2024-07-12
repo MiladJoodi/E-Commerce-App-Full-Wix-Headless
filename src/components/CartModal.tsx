@@ -14,7 +14,17 @@ const CartModal = () => {
           <Image
             src="https://images.pexels.com/photos/26341034/pexels-photo-26341034/free-photo-of-a-view-of-a-canyon-with-a-river-running-through-it.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt=""
+            width={72}
+            height={96}
+            className="object-cover rounded-md"
           />
+          <div className="">
+            {/* TOP */}
+            {/* TITLE */}
+            {/* DESC */}
+
+            {/* BOTTOM */}
+          </div>
         </div>
       )}
     </div>
